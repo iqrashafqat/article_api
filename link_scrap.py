@@ -548,9 +548,9 @@ def paraphrase(final_list):
             
         paraphrase2 = [' '.join(x) for x in paraphrase] 
         print("first join sentences: ",paraphrase2) 
-        # paraphrase3 = [' '.join(x for x in paraphrase2)] 
-        # print("second join sentences: ",paraphrase3) 
-        paraphrased_text = str(paraphrase2).strip('[]').strip("'")
+        paraphrase3 = [' '.join(x for x in paraphrase2)] 
+        print("second join sentences: ",paraphrase3) 
+        paraphrased_text = str(paraphrase3).strip('[]').strip("'")
         print("complete paraphrase sentence: ",paraphrased_text) 
         paraphrased_text_list.append(paraphrased_text) 
     
